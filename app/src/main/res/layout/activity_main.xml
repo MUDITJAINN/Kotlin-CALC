@@ -59,6 +59,7 @@
         android:layout_height="wrap_content"
         android:text="Result"
         android:textSize="24sp"
+        android:id="@+id/resulttv"
         android:layout_margin="20dp"
         android:gravity="center"/>
 
