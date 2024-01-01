@@ -37,19 +37,19 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_add"
+            android:id="@+id/btn_subtraction"
             android:layout_margin="4dp"
             android:text="-"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_add"
+            android:id="@+id/btn_multiplication"
             android:layout_margin="4dp"
             android:text="*"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_add"
+            android:id="@+id/btn_division"
             android:layout_margin="4dp"
             android:text="/"/>
     </LinearLayout>
