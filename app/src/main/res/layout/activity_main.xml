@@ -14,11 +14,44 @@
         android:id="@+id/et_a"
         android:layout_margin="20dp"
         android:hint="Enter A"/>
+    <!-- match_parent = refers to parent height - padding-->
+    <!-- fill_parent = similar to match_parent for higher versions-->
+    <!-- wrap_content = refers to actual content size + padding-->
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/et_b"
         android:layout_margin="20dp"
         android:hint="Enter B"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add"
+            android:layout_margin="4dp"
+            android:text="+"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add"
+            android:layout_margin="4dp"
+            android:text="-"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add"
+            android:layout_margin="4dp"
+            android:text="*"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add"
+            android:layout_margin="4dp"
+            android:text="/"/>
+    </LinearLayout>
 
 </LinearLayout>
