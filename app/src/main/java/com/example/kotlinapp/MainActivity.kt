@@ -10,6 +10,8 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() , View.OnClickListener {
 
     lateinit var btnAdd : Button //initialized variable with their views
+    // lateint used with only mutable datatype eg var, and non-nullable datatype.
+    // also lateint values must be initialised before use.
     lateinit var btnSub : Button
     lateinit var btnMul : Button
     lateinit var btnDiv : Button
@@ -28,7 +30,7 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
         etB = findViewById(R.id.et_b)
         resultTv = findViewById(R.id.resulttv)
 
-        btnAdd.setOnClickListener(this)
+        btnAdd.setOnClickListener(this) // varible connected with id/view used with setOnClickListener.
         btnSub.setOnClickListener(this)
         btnMul.setOnClickListener(this)
         btnDiv.setOnClickListener(this)
